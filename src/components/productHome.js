@@ -10,12 +10,8 @@ const ProductPage = () => {
   const data = useSelector((product) => product.products.products);
   const dispatch = useDispatch();
 
-  const getProducts = () => {
-    dispatch(getData());
-  };
-
   useEffect(() => {
-    getProducts();
+    dispatch(getData());
   }, []);
 
   return (
@@ -40,14 +36,7 @@ const ProductPage = () => {
                   <Card.Description>
                     <Card.Header>
                       <div style={{ height: "60px", overflowY: "scroll" }}>
-                        {/* <a onClick={() => console.log("key -> ", m.id)}> */}
-                        <Link
-                          to={`product/${m.id}`}
-                          onClick={() => console.log(m.id)}
-                        >
-                          {m.title}
-                        </Link>
-                        {/* </a> */}
+                        <Link to={`product/${m.id}`}>{m.title}</Link>
                       </div>
                     </Card.Header>
                     <Card.Header>$ {m.price}</Card.Header>
