@@ -13,8 +13,6 @@ const SelectedProduct = () => {
   const productById = useSelector((product) => product.products.productById);
 
   const getDataByID = async (p_id) => {
-    // const product = await api.getDataByID(p_id);
-    // console.log("product by id -> ", product);
     dispath(setData(p_id));
   };
 
