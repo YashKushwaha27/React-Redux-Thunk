@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React-Redux-Thunk/static/css/main.d2f52c6b.chunk.css",
+    "main.js": "/React-Redux-Thunk/static/js/main.89ba373f.chunk.js",
+    "main.js.map": "/React-Redux-Thunk/static/js/main.89ba373f.chunk.js.map",
+    "runtime-main.js": "/React-Redux-Thunk/static/js/runtime-main.28c7c44d.js",
+    "runtime-main.js.map": "/React-Redux-Thunk/static/js/runtime-main.28c7c44d.js.map",
+    "static/css/2.50651718.chunk.css": "/React-Redux-Thunk/static/css/2.50651718.chunk.css",
+    "static/js/2.1ccd226e.chunk.js": "/React-Redux-Thunk/static/js/2.1ccd226e.chunk.js",
+    "static/js/2.1ccd226e.chunk.js.map": "/React-Redux-Thunk/static/js/2.1ccd226e.chunk.js.map",
+    "static/js/3.9dbcb2c4.chunk.js": "/React-Redux-Thunk/static/js/3.9dbcb2c4.chunk.js",
+    "static/js/3.9dbcb2c4.chunk.js.map": "/React-Redux-Thunk/static/js/3.9dbcb2c4.chunk.js.map",
+    "index.html": "/React-Redux-Thunk/index.html",
+    "static/css/2.50651718.chunk.css.map": "/React-Redux-Thunk/static/css/2.50651718.chunk.css.map",
+    "static/css/main.d2f52c6b.chunk.css.map": "/React-Redux-Thunk/static/css/main.d2f52c6b.chunk.css.map",
+    "static/js/2.1ccd226e.chunk.js.LICENSE.txt": "/React-Redux-Thunk/static/js/2.1ccd226e.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/React-Redux-Thunk/static/media/outline-icons.ddae9b1b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28c7c44d.js",
+    "static/css/2.50651718.chunk.css",
+    "static/js/2.1ccd226e.chunk.js",
+    "static/css/main.d2f52c6b.chunk.css",
+    "static/js/main.89ba373f.chunk.js"
+  ]
+}
