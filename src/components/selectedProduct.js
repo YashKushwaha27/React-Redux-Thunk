@@ -4,8 +4,6 @@ import { useParams } from "react-router";
 import { removeData, setData } from "../redux/actions/countActions";
 import { Image } from "semantic-ui-react";
 
-const api = require("../network/apiCalls");
-
 const SelectedProduct = () => {
   const { id } = useParams();
   const dispath = useDispatch();
@@ -17,7 +15,7 @@ const SelectedProduct = () => {
     return () => {
       dispath(removeData());
     };
-  }, []);
+  }, [id]);
 
   return (
     <>

@@ -1,4 +1,3 @@
-import axios from "axios";
 import { actionTypes } from "../constants/actionTypes";
 
 const api = require("../../network/apiCalls");
