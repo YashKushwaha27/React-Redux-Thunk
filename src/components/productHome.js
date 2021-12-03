@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 import { Card, CardGroup, Icon, Image } from "semantic-ui-react";
 import { getData } from "../redux/actions/countActions";
 
-const api = require("../network/apiCalls");
-
 const ProductPage = () => {
   const data = useSelector((product) => product.products.products);
   const dispatch = useDispatch();
@@ -27,7 +25,7 @@ const ProductPage = () => {
         <CardGroup itemsPerRow={5}>
           {data ? (
             data.map((m) => (
-              <Card key={m.id}>
+              <Card key={m.id} data-testid="productCard">
                 <Card.Content>
                   <div style={{ height: "270px" }}>
                     <Image src={m.image} size="small" />
