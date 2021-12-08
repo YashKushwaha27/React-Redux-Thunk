@@ -4,6 +4,7 @@ const api = require("../../network/apiCalls");
 
 export const getData = () => async (dispatch) => {
   const response = await api.getData();
+  console.log("response got- >",response)
   dispatch({ type: actionTypes.GET_DATA, payload: response });
 };
 

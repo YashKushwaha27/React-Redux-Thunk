@@ -4,7 +4,7 @@ import { useParams } from "react-router";
 import { removeData, setData } from "../redux/actions/countActions";
 import { Image } from "semantic-ui-react";
 
-const SelectedProduct = () => {
+const SelectedProduct = (location) => {
   const { id } = useParams();
   const dispath = useDispatch();
 
@@ -12,6 +12,7 @@ const SelectedProduct = () => {
 
   useEffect(() => {
     if (id && id !== "") dispath(setData(id));
+    console.log("prod_id ->",location, id)
     return () => {
       dispath(removeData());
     };
@@ -19,11 +20,11 @@ const SelectedProduct = () => {
 
   return (
     <>
-      <div class="topnav">
-        <a class="active" href="/">
+      <div className="topnav">
+        <a className="active" href="/">
           Product List
         </a>
-        <a href="#">Selected Product : {productById?.title} </a>
+        <a href="#" data-testid="headerSelectedProduct">Selected Product : {productById?.title} </a>
       </div>
       <div
         className="ui placeholder segment"
