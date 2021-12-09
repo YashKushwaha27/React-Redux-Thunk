@@ -48,29 +48,6 @@ module.exports = {
           },
         ],
       },
-      // {
-      // test: /\.(sa|sc|c)ss$/,
-      //   include: path.resolve(__dirname, "src"),
-      //   use: [
-      //     {
-      //       loader: MiniCssExtractPlugin.loader,
-      //       options: {
-      //         publicPath: (resourcePath, context) => {
-      //           return path.relative(path.dirname(resourcePath), context) + "/";
-      //         },
-      //         hmr: process.env.NODE_ENV !== "production",
-      //       },
-      //     },
-      //     "css-loader",
-      //     {
-      //       loader: `postcss-loader`,
-      //       options: {
-      //         options: {},
-      //       },
-      //     },
-      //     "url-loader",
-      //   ],
-      // },
       {
         test: /\.(sa|sc|c)ss$/,
         use: [
